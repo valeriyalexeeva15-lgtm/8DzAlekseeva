@@ -10,9 +10,9 @@ class Quest (
     }
 
     fun printInfo() {
-            println("[$questType] $name — $description")
-        }
+        println("[$questType] $name — $description")
     }
+}
 
     fun printExploreQuests(quests: List<Quest>) {
         for (quest in quests) {
