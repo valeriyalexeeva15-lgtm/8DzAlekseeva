@@ -1,5 +1,4 @@
 enum class QuestType {
-    EXPLORE,
-    FIGHT,
-    COLLECT
+    DELIVERY, ELIMINATION, ESCORT, EXPLORE, BOSSFIGHT
 }
+
